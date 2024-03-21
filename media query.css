@@ -1,0 +1,31 @@
+@media (max-width: 615px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 5vh;
+    }
+}
+
+@media (min-width: 616px) {
+    main {
+        padding: 0vh 7vh 0vh 7vh;
+    }
+
+    img {
+        width: 34vh;
+    }
+}
+
+@media (max-width: 320px) {
+    img {
+        height: 200px;
+    }
+
+    section {
+        padding-left: 5vh;
+    }
+
+    input {
+        width: 250px;
+    }
+}
